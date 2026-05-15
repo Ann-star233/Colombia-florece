@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Región Andina</title>
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header class="header">
+    
+    <div class="logo">
+    <img src="img/logo_florece.png" 
+    alt="Logo Colombia Florece con una orquídea representando la biodiversidad de Colombia">
+    </div>
+
+    <nav aria-label="Navegacion principal">
+        <ul class="menu">
+
+            <li><a href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="andina.html" data-es="Región Andina" data-en="Andean Region">Región Andina</a></li>
+            <li><a href="amazonia.html" data-es="Región Amazónica" data-en="Amazon Region">Región Amazónica</a></li>
+            <li><a href="caribe.html" data-es="Región Caribe" data-en="Caribbean Region">Región Caribe</a></li>
+            <li><a href="pacifico.html" data-es="Región Pacífica" data-en="Pacific Region">Región Pacífica</a></li>
+            <li><a href="orinoquia.html" data-es="Región Orinoquía" data-en="Orinoquia Region">Región Orinoquía</a></li>
+            <li><a href="contacto.html" data-es="Contacto" data-en="Contact">Contacto</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="selector-idioma">
+        <button onclick="cambiarIdioma('es')" class="boton-idioma">ES</button>
+        <button onclick="cambiarIdioma('en')" class="boton-idioma">EN</button>
+    </div>
+
+    <button id="menuBtn">☰</button>
+    
+</header>
+
+<main>
+
+<section class="hero-region andina-hero">
+
+    <div class="hero-overlay">
+    <h1 data-es="Región Andina" data-en="Andean Region">
+        Región Andina</h1>
+    
+        <p  data-es="Montañas, páramos y bosques nublados" 
+            data-en="mountains,paramos and cloud forests">
+        Montañas, páramos y bosques nublados
+        </p>
+
+        <span class="badge">Alta biodiversidad</span>
+
+     </div>
+</section>
+
+<section class="introduccion">
+
+    <h2 data-es="Flora de la Región Andina"data-en="Flora of the Andean Region">
+    Flora de la Región Andina</h2>
+
+    <p data-es="La región Andina se caracteriza por sus montañas, páramos y bosques nublados, siendo una de las zonas con mayor biodiversidad vegetal del país."
+    data-en="The Andean region is characterized by mountains, paramos and cloud forests, being one of the most biodiverse areas in Colombia.">
+    La región Andina se caracteriza por su biodiversidad.</p>
+</section>
+
+<section class="grid-plantas">
+
+        <article class="planta-card">
+
+            <div class="imagen-planta">
+                <img src="img/andina.img/frailejon.png"
+                alt="Frailejón en páramo colombiano con hojas gruesas cubiertas de vellosidad que retienen humedad">
+            </div>
+
+            <span class="categoria-planta"
+                  data-es="Páramo"
+                  data-en="Paramo">
+                  Páramo
+            </span>
+
+            <h2 data-es="Frailejón"
+                data-en="Frailejón">
+
+                Frailejón
+            </h2>
+
+            <p class="nombre-cientifico">
+                <i>Espeletia grandiflora</i>
+            </p>
+
+            <p data-es="Planta emblemática de los páramos colombianos que absorbe y regula el agua."
+               data-en="Iconic paramo plant that absorbs and regulates water.">
+
+               Planta emblemática de los páramos colombianos que absorbe y regula el agua.
+            </p>
+
+            <p data-es="Es fundamental para el suministro de agua potable en ciudades cercanas."
+               data-en="It is essential for water supply in nearby cities.">
+
+               Es fundamental para el suministro de agua potable en ciudades cercanas.
+            </p>
+
+            <p class="dato-curioso"
+               data-es="Puede vivir más de 100 años y crece muy lentamente."
+               data-en="It can live over 100 years and grows very slowly.">
+
+               Puede vivir más de 100 años y crece muy lentamente.
+            </p>
+
+        </article>
+
+
+        <article class="planta-card">
+
+            <div class="imagen-planta">
+                <img src="img/andina.img/orquidea.png"
+                alt="Orquídea colombiana de colores rosados y morados creciendo en ambiente húmedo">
+            </div>
+
+            <span class="categoria-planta"
+                  data-es="Flor nacional"
+                  data-en="National flower">
+                  Flor nacional
+            </span>
+
+            <h2 data-es="Orquídea"
+                data-en="Orchid">
+                Orquídea
+            </h2>
+
+            <p class="nombre-cientifico">
+                <i>Cattleya trianae</i>
+            </p>
+
+            <p data-es="Flor nacional de Colombia reconocida por su belleza y diversidad."
+               data-en="Colombia's national flower known for its beauty and diversity.">
+
+               Flor nacional de Colombia reconocida por su belleza y diversidad.
+            </p>
+
+            <p data-es="Contribuye a la polinización y equilibrio de ecosistemas."
+               data-en="Helps pollination and ecosystem balance.">
+
+               Contribuye a la polinización y equilibrio de ecosistemas.
+            </p>
+
+            <p class="dato-curioso"
+               data-es="Colombia posee más de 4.000 especies de orquídeas."
+               data-en="Colombia has more than 4,000 orchid species.">
+
+               Colombia posee más de 4.000 especies de orquídeas.
+            </p>
+
+        </article>
+
+
+        <article class="planta-card">
+
+            <div class="imagen-planta">
+                <img src="img/andina.img/encenillo.png"
+                alt="Árbol encenillo en bosque andino con follaje denso y tronco delgado">
+            </div>
+
+            <span class="categoria-planta"
+                  data-es="Bosque andino"
+                  data-en="Andean forest">
+
+                  Bosque andino
+            </span>
+
+            <h2 data-es="Encenillo"
+                data-en="Encenillo">
+
+                Encenillo
+            </h2>
+
+            <p class="nombre-cientifico">
+                <i>Weinmannia tomentosa</i>
+            </p>
+
+            <p data-es="Árbol nativo que crece en bosques andinos y protege el suelo."
+               data-en="Native tree that grows in Andean forests and protects soil.">
+
+               Árbol nativo que crece en bosques andinos y protege el suelo.
+            </p>
+
+            <p data-es="Evita la erosión y conserva la humedad del suelo."
+               data-en="Prevents erosion and preserves soil moisture.">
+
+               Evita la erosión y conserva la humedad del suelo.
+            </p>
+
+            <p class="dato-curioso"
+               data-es="Es muy resistente a climas fríos."
+               data-en="It is very resistant to cold climates.">
+
+               Es muy resistente a climas fríos.
+            </p>
+
+        </article>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+
+    <p data-es="Proyecto educativo sobre flora de Colombia"
+       data-en="Educational project about Colombia's flora">
+
+       Proyecto educativo sobre flora de Colombia
+    </p>
+
+    <p>© 2026 Colombia Florece</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

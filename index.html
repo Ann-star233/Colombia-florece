@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombia Florece </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#contenido" data-es="Saltar al contenido" data-en="Skip to content">Saltar al contenido</a>
+
+<header class="header">
+    <div class="logo">
+        <img src="img/logo_florece.png"
+        alt="Logo Colombia Florece con una orquidea al lado del texto representando la biodiversidad de colombia">
+    </div>
+
+    <nav aria-label="Navegacion principal">
+        <ul class="menu">
+
+            <li><a href="index.html" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="andina.html" data-es="Región Andina" data-en="Andean Region">Región Andina</a></li>
+            <li><a href="amazonia.html" data-es="Región Amazónica" data-en="Amazon Region">Región Amazónica</a></li>
+            <li><a href="caribe.html" data-es="Región Caribe" data-en="Caribbean Region">Región Caribe</a></li>
+            <li><a href="pacifico.html" data-es="Región Pacifica" data-en="Pacific Region">Región Pacífico</a></li>
+            <li><a href="orinoquia.html"data-es="Región Orinoquía" data-en="Orinoquia Region">Región Orinoquía</a></li>
+            <li><a href="contacto.html" data-es="Contacto" data-en="Contact">Contacto</a></li>
+        
+        </ul>
+    </nav>
+
+    <div class="selector-idioma">
+       <button onclick="cambiarIdioma('es')" class="boton-idioma">ES</button>
+       <button onclick="cambiarIdioma('en')" class="boton-idioma">EN</button>
+    </div>
+
+    <button id="menuBtn">☰</button>
+
+</header>
+
+<main id="contenido">
+
+    <section class="hero">
+        <div class="hero-contenido">
+            <h1 data-es="Descubre la flora de Colombia por regiones"
+                data-en="Discover Colombia’s flora by regions">
+                Descubre la flora de Colombia por regiones</h1>
+
+            <p  data-es="Un viaje por la biodiversidad más rica del mundo"
+                data-en="A journey through the richest biodiversity in the world">
+                Un viaje por la biodiversidad mas rica del mundo</p>
+
+            <p id="mensaje" class="mensaje-dia" aria-live="polite"></p>
+            
+        </div>
+
+    </section>
+
+    <section class="regiones">
+
+        <h2 data-es="Explora por regiones" data-en="Explore by regions">
+            Explora por regiones</h2>
+
+        <div class="grid-regiones">
+
+            <article class="region andina">
+                <img src="img/iconos.svg/andina.svg"
+                alt="Icono de montaña representando la región Andina de Colombia">
+                <h3 data-es="Región Andina" data-en="Andean Region">Región Andina</h3>
+                <p  data-es="Zona montañosa con gran diversidad de ecosistemas" 
+                    data-en="Mountainous area with great ecosystem diversity">
+                    Zona montañosa con gran diversidad de ecosistemas</p>
+                <a href="andina.html" data-es="Explorar flora" data-en="Explore flora">Explorar flora</a>
+            </article>
+
+            <article class="region amazonia">
+                <img src="img/iconos.svg/amazonia.svg"
+                alt="Icono de arbol representando la región Amazónica de Colombia">
+                <h3 data-es="Región Amazónica" data-en="Amazon Region">Región Amazónica</h3>
+                <p  data-es="Selvas húmedas con gran biodiversidad" 
+                    data-en="Humid rainforests with great biodiversity">
+                Selvas húmedas con gran biodiversidad</p>
+                <a href="amazonia.html" data-es="Explorar flora" data-en="Explore flora">Explorar flora</a>
+            </article>
+
+            <article class="region caribe">
+                <img src="img/iconos.svg/caribe.svg"
+                alt="Icono de sol representando el clima calido de la región Caribe">
+                <h3 data-es="Región Caribe" data-en="Caribbean Region">Región Caribe</h3>
+                <p  data-es="Clima cálido con ecosistemas costeros y secos" 
+                    data-en="Warm climate with coastal ecosystems">
+                Clima cálido con ecosistemas costeros y secos</p>
+                <a href="caribe.html" data-es="Explorar flora" data-en="Explore flora">Explorar flora</a>
+            </article>
+
+            <article class="region pacifico">
+                <img src="img/iconos.svg/pacifico.svg"
+                alt="Icono de lluvia representando la región Pacifica de Colombia">
+                <h3 data-es="Región Pacifica" data-en="Pacific Region">Región Pacifico</h3>
+                <p  data-es="Selvas húmedas con gran diversidad de flora" 
+                    data-en="Humid rainforests with high biodiversity">
+                Selvas húmedas con gran diversidad de flora</p>
+                <a href="pacifico.html" data-es="Explorar flora" data-en="Explore flora">Explorar flora</a>
+            </article>
+             
+            <article class="region orinoquia">
+                <img src="img/iconos.svg/orinoquia.svg"
+                alt="Icono de llanura representando la región Orinoquía de Colombia">
+                <h3 data-es="Región Orinoquía" data-en="Orinoquia Region">Región Orinoquía</h3>
+                <p  data-es="Amplias sabanas y ecosistemas únicos" 
+                    data-en="Wide savannas and lowland ecosystems">
+                Amplias sabanas y ecosistemas únicos</p>
+                <a href="orinoquia.html" data-es="Explorar flora" data-en="Explore flora">Explorar flora</a>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section class="biodiversidad">
+        <h2 data-es="Biodiversidad de Colombia" data-en="Colombia’s Biodiversity">Biodiversidad de Colombia</h2>
+        <p class="intro"
+            data-es="Colombia es uno de los países más biodiversos del planeta."
+            data-en="Colombia is one of the most biodiverse countries on Earth.">   
+            Colombia es uno de los países más biodiversos del planeta.</p>
+
+        <div class="stats-grid">
+
+            <article class="stat">
+                <img src="img/planta.jpg"
+                alt="Planta de cafe colombiano en bosque húmedo">
+                <h3>+50.000</h3>
+                <p data-es="Especies de plantas" data-en="Plant species">Especies de plantas</p>
+            </article>
+
+            <article class="stat">
+                <img src="img/orquidea.png"
+                alt="Orquidea colombiana de pétalos rosados representando la flor nacional">
+                <h3>4.200</h3>
+                <p data-es="Especies de orquídeas" data-en="Orchid species">Especies de orquideas</p>
+            </article>
+
+            <article class="stat">
+                <img src="img/ave.jpg"
+                alt="Ave tropical colombiana posada en una rama en ecosistema natural">
+                <h3>1.800</h3>
+                <p data-es="Especies de aves" data-en="Bird species">Especies de aves</p>
+            </article>
+            
+            <article class="stat">
+                <img src="img/mamifero.jpg"
+                alt="Mamífero silvestre colombiano en su hábitat natural">
+                <h3>475</h3>
+                <p data-es="Especies de mamíferos" data-en="Mammal species">Especies de mamifero</p>
+            </article>
+
+        
+
+        </div>
+
+    </section>
+
+    <section class="mapa">
+        <h2 data-es="Mapa de Colombia" data-en="Map of Colombia">Mapa de Colombia</h2>
+        <img src="img/mapa de colombia.png"
+        alt="Mapa de Colombia mostrando las cinco regiones naturales: Andina, Caribe, Pacifica, Orinoquia y Amazonia">
+    </section>
+
+    <section class="slider-section">
+        <h2 data-es="Explora la flora en imagenes" 
+            data-en="Explore the flora in images">
+            Explora la flora en imagenes</h2>
+        
+        <div class="slider-container">
+            <button id="prev" aria-label="Imagen anterior">◀</button>
+
+        <img id="slider" src="img/slide1.png" 
+        alt="Imagen panoramica de campo de flores rosadas">
+            
+            <button id="next" aria-label="Imagen siguiente">▶</button>
+        </div>    
+    </section>
+
+    </main>
+
+    <footer class="footer">
+        <p  data-es="Proyecto educativo sobre flora de Colombia"
+            data-en="Educational project about Colombia’s flora">
+            Proyecto educativo sobre flora de Colombia</p>
+        <p>© 2026 Colombia Florece UNAD</p>
+
+    </footer>
+
+    <script src="js/script.js"></script> 
+
+</body>
+</html>
+
+   
+    
+
+
+                
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
