@@ -32,6 +32,8 @@ function initMenu(){
   const menuBtn=document.getElementById("menuBtn");
   const menu=document.querySelector(".menu");
 
+  if(!menuBtn || !menu)return;
+
   menuBtn.addEventListener("click",()=> {
     menu.classList.toggle("active");
   });
