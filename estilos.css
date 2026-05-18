@@ -393,11 +393,11 @@ section{
 }
 
 /*IMAGENES HERO REGIONES*/
-.andina-hero{background-image:url("../img/amazonia.img/amazonia.png");}
-.caribe-hero{background-image:url("../img/caribe.img/caribe.png");}
-.pacifico-hero{background-image:url("../img/pacifica.img/Pacifico.png");}
-.orinoquia-hero{background-image:url("../img/orinoquia.img/orinoquia.png");}
-.amazonia-hero{background-image:url("../img/amazonia.img/amazonia.png");}
+.andina-hero{background-image:url("img/amazonia.img/amazonia.png");}
+.caribe-hero{background-image:url("img/caribe.img/caribe.png");}
+.pacifico-hero{background-image:url("img/pacifica.img/Pacifico.png");}
+.orinoquia-hero{background-image:url("img/orinoquia.img/orinoquia.png");}
+.amazonia-hero{background-image:url("img/amazonia.img/amazonia.png");}
 
 .hero-overlay{
     position:relative;
