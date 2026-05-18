@@ -123,6 +123,9 @@ function initHero(){
 
 //MENSAJE DINAMICO
 function mensajeDinamico(){
+  const el=document.getElementById("mensaje");
+  if (!el)return;
+  
   const hora= new Date().getHours();
   const idioma = document.documentElement.lang;
 
@@ -142,6 +145,6 @@ function mensajeDinamico(){
     :"Good evening, explore nature";
   }
 
-  document.getElementById("mensaje").textContent=mensaje;
+ el.textContent=mensaje;
 }
 
